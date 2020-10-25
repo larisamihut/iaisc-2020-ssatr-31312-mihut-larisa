@@ -1,0 +1,131 @@
+{
+"places": [{
+		"id": 0,
+		"jeton": 1
+		},{
+		"id": 2,
+		"jeton": 0
+		},{
+		"id": 3,
+		"jeton": 0
+		},{
+		"id": 4,
+		"jeton": 0
+		},{
+		"id": 5,
+		"jeton": 0
+		},{
+		"id": 6,
+		"jeton": 0
+		},{
+		"id": 7,
+		"jeton": 0
+		},{
+		"id": 8,
+		"jeton": 1
+		},{
+		"id": 9,
+		"jeton": 0
+		},{
+		"id": 10,
+		"jeton": 0
+}],
+"transitions":[{
+			"inputs": [{
+				"id": 0
+			}],
+			"outputs": [{
+				"id": 2
+			},{
+				"id": 3
+			}],
+			"tmin": 0,
+			"tmax": 0
+		},
+		{
+		"inputs": [{
+				"id": 2
+			}],
+			"outputs": [{
+				"id": 4
+			}],
+			"tmin": 2,
+			"tmax": 4
+		},
+		{
+			"inputs": [{
+				"id": 4
+				},{
+				"id": 8
+			}],
+			"outputs": [{
+				"id": 6
+			}],
+			"tmin": 0,
+			"tmax": 0
+		},
+		{
+			"inputs": [{
+				"id": 6
+			}],
+			"outputs": [{
+				"id": 9
+				},{
+				"id": 8
+			}],
+			"tmin": 0,
+			"tmax": 0
+		},
+{
+			"inputs": [{
+				"id": 9
+			}],
+			"outputs": [{
+				"id": 0
+			}],
+			"tmin": 0,
+			"tmax": 0
+},{
+		"inputs": [{
+				"id": 3
+			}],
+			"outputs": [{
+				"id": 5
+			}],
+			"tmin": 3,
+			"tmax": 5
+		},
+		{
+			"inputs": [{
+				"id": 5
+				},{
+				"id": 8
+			}],
+			"outputs": [{
+				"id": 7
+			}],
+			"tmin": 0,
+			"tmax": 0
+		},
+		{
+			"inputs": [{
+				"id": 7
+			}],
+			"outputs": [{
+				"id": 10
+			}],
+			"tmin": 0,
+			"tmax": 0
+		},
+		{
+			"inputs": [{
+				"id": 10
+			}],
+"outputs": [{
+				"id": 0
+			}],
+			"tmin": 0,
+			"tmax": 0
+		}
+]
+}
